@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{84F7D255-4C9A-5C39-6595-1FBEF99E4A63}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GltfRuntimeOpt",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
