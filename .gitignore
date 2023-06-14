@@ -8,6 +8,7 @@ Documentation/latex
 Plugins/YourOpenMetaverse/Config/DefaultYourOpenMetaverse.ini
 PortalImages
 .vsconfig
+Gltfs/*
 
 Plugins/Developer
 
