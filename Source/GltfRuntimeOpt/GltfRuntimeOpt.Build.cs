@@ -10,7 +10,12 @@ public class GltfRuntimeOpt : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "glTFRuntime" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "glTFRuntime" });
+		PrivateDependencyModuleNames.AddRange(new string[]
+		{
+			"glTFRuntime", 
+			"LevelEditor", 
+			"UnrealEd"
+		});
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
